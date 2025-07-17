@@ -1,19 +1,2 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="refresh" content="0; url=ja-jp/index_ja.html" />
-  <script>
-    const lang = navigator.language || navigator.userLanguage;
-    if (lang.startsWith("en")) {
-      window.location.replace("en-gb/index_en.html");
-    } else {
-      window.location.replace("ja-jp/index_ja.html");
-    }
-  </script>
-  <title>Redirecting...</title>
-</head>
-<body>
-  <p>Redirecting...</p>
-</body>
-</html>
+<html><head><meta charset='UTF-8'><title>FIXLAG.ORG</title></head><body><script>const lang = navigator.language || navigator.userLanguage;window.location.href = lang.startsWith('ja') ? './ja-jp/index_ja.html' : './en-gb/index_en.html';</script></body></html>

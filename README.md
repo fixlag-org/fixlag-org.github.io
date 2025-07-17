@@ -1,2 +1,2 @@
-# FIXLAG.ORG Website
-Language-specific landing structure.
+# FIXLAG.ORG
+This is the official website of FIXLAG.ORG, managed by Shoichi Sato.
