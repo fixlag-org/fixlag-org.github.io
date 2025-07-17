@@ -1,0 +1,27 @@
+﻿
+/
+├── index.html              （言語自動判別でリダイレクト）
+├── style.css               （共通CSS）
+├── favicon.ico             （全ページに表示）
+├── CNAME                   （fixlag.org 用）
+├── README.md               （サイト説明）
+├── docs/
+│   ├── repository_structure.txt       ← ✅ 構成記録
+│   ├── Value-domain_fixlag_DNS_meanings.csv  ← ✅ 意味付きDNS記録
+│   └── Value-domain_fixlag_DNS_records.txt   ← ✅ DNS設定一覧
+├── en-gb/
+│   ├── index_en.html
+│   ├── about_en.html
+│   ├── activities_en.html
+│   ├── articles_en.html
+│   ├── biography_en.html
+│   ├── contact_en.html
+│   └── philosophy_en.html
+└── ja-jp/
+    ├── index_ja.html
+    ├── about_ja.html
+    ├── activities_ja.html
+    ├── articles_ja.html
+    ├── biography_ja.html
+    ├── contact_ja.html
+    └── philosophy_ja.html
