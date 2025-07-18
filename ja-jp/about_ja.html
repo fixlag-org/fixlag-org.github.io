@@ -1,13 +1,54 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <title>About</title>
-    <link rel="stylesheet" href="../style.css">
-    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8">
+  <title>About Ja</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" href="../favicon.ico" type="image/x-icon">
+  
+<style>
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    justify-content: center;
+  }
+  .navbar li {
+    list-style: none;
+  }
+  .navbar a {
+    text-decoration: none;
+    padding: 6px 12px;
+    background: #333;
+    color: white;
+    border-radius: 4px;
+  }
+  .navbar a:hover {
+    background: #555;
+  }
+  @media (max-width: 600px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+</style>
+
 </head>
 <body>
-    <header><h1>About Page (ja)</h1></header>
-    <main><p>Content coming soon...</p></main>
+  
+<nav>
+  <ul class="navbar">
+    <li><a href="index_ja.html">Home</a></li>
+    <li><a href="about_ja.html">About</a></li>
+    <li><a href="biography_ja.html">Biography</a></li>
+    <li><a href="philosophy_ja.html">Philosophy</a></li>
+  </ul>
+</nav>
+
+  <main><p>Content coming soon...</p></main>
 </body>
 </html>
