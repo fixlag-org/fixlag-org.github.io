@@ -9,6 +9,10 @@
 │   ├── repository_structure.txt       ← ✅ 構成記録
 │   ├── Value-domain_fixlag_DNS_meanings.csv  ← ✅ 意味付きDNS記録
 │   └── Value-domain_fixlag_DNS_records.txt   ← ✅ DNS設定一覧
+├── img/
+│   ├── logo_en.png
+│   ├── logo_en.png
+│   ├── portrait.png
 ├── en-gb/
 │   ├── index_en.html
 │   ├── about_en.html
