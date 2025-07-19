@@ -1,13 +1,11 @@
 # DNSレコード一覧（fixlag.org）
-# 最終更新日：2025-07-19 18:37
+# 最終更新日：2025-07-15
 # 管理者：Shoichi Sato（shoichi.sato@fixlag.org）
 # -- GitHub Pages 用Aレコード
 a @ 185.199.108.153
 a @ 185.199.109.153
 a @ 185.199.110.153
 a @ 185.199.111.153
-# -- GitHub Pages 用CNAMEレコード
-cname www fixlag.org.
 # -- Microsoft 365用（メール・Teamsなど）
 mx @ 10 fixlag-org.mail.protection.outlook.com.
 # -- SPF レコード（Microsoft 365 用）
