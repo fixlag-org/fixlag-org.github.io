@@ -1,5 +1,5 @@
 # DNSレコード一覧（fixlag.org）
-# 最終更新日：2025-07-15
+# 最終更新日：2025-07-19 18:37
 # 管理者：Shoichi Sato（shoichi.sato@fixlag.org）
 # -- GitHub Pages 用Aレコード
 a @ 185.199.108.153
