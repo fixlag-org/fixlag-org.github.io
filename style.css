@@ -1,36 +1,60 @@
 
-/* FIXLAG.ORG - 和文優先フォント（中華字形対策済）＋画像の整列調整 */
 body {
-  font-family: "Yu Mincho", "Hiragino Mincho ProN", "MS PMincho", "MS Mincho",
-               "Noto Serif JP", "Noto Serif", "Times New Roman", serif;
-  font-size: 16px;
-  line-height: 1.75;
-  color: #222;
-  background-color: #fff;
-  margin: 2em;
+    font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 1rem;
+    color: #1a1a1a;
 }
 
-/* 見出し */
-h1, h2, h3 {
-  font-weight: bold;
-  color: #111;
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
 }
 
-/* 段落 */
-p {
-  margin-bottom: 1em;
+header img {
+    width: 200px;
+    height: auto;
+    margin-right: 1rem;
 }
 
-/* リンク */
-a {
-  color: #0066cc;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
+h1 {
+    font-size: 2rem;
+    margin: 0.5rem 0;
 }
 
-/* 画像（メール画像含む）のベースライン調整 */
-img {
-  vertical-align: middle;
+.language-switch {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.lang-button {
+    background-color: #5c4033;
+    color: white;
+    border-radius: 8px;
+    padding: 6px 12px;
+    margin-left: 6px;
+    text-decoration: none;
+    border: 1px solid #3b2a20;
+    font-size: 0.9rem;
+}
+
+.lang-button:hover {
+    background-color: #3b2a20;
+}
+
+img.diagram {
+    width: 160px;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
+
+.diagram-caption {
+    text-align: center;
+    font-style: italic;
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
 }
