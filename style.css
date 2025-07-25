@@ -1,46 +1,31 @@
+
+/* FIXLAG.ORG - 和文優先フォント（中華字形対策） */
 body {
-  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #fff;
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", "MS PMincho", "MS Mincho",
+               "Noto Serif JP", "Noto Serif", "Times New Roman", serif;
+  font-size: 16px;
+  line-height: 1.75;
   color: #222;
+  background-color: #fff;
+  margin: 2em;
 }
-header {
-  padding: 1rem;
-  background: #fefefe;
-  border-bottom: 1px solid #ccc;
-  text-align: center;
-}
-.logo {
-  height: 40px;
-}
-.nav-buttons {
-  margin-top: 1rem;
-  display: flex;
-  justify-content: center;
-  gap: 0.5rem;
-  flex-wrap: wrap;
-}
-.nav-btn {
-  background-color: #5a4231;
-  color: white;
-  border-radius: 12px;
-  padding: 0.4rem 1rem;
-  text-decoration: none;
+
+/* 見出し */
+h1, h2, h3 {
   font-weight: bold;
+  color: #111;
 }
-.nav-btn:hover {
-  background-color: #7b5c43;
+
+/* 段落 */
+p {
+  margin-bottom: 1em;
 }
-main {
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
+
+/* リンク */
+a {
+  color: #0066cc;
+  text-decoration: none;
 }
-footer {
-  text-align: center;
-  padding: 1rem;
-  font-size: 0.9rem;
-  color: #444;
-  border-top: 1px solid #ccc;
+a:hover {
+  text-decoration: underline;
 }
