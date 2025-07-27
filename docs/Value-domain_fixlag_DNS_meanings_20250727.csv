@@ -1,0 +1,19 @@
+Host,Type,Value,Description
+@,A,185.199.108.153,GitHub Pages 用Aレコード（1/4）
+@,A,185.199.109.153,GitHub Pages 用Aレコード（2/4）
+@,A,185.199.110.153,GitHub Pages 用Aレコード（3/4）
+@,A,185.199.111.153,GitHub Pages 用Aレコード（4/4）
+www,CNAME,fixlag-org.github.io.,GitHub Pages 用CNAMEレコード
+@,MX,aspmx.l.google.com.,GWS用 メインMXサーバ
+@,MX,alt1.aspmx.l.google.com.,GWS用 予備MXサーバ1
+@,MX,alt2.aspmx.l.google.com.,GWS用 予備MXサーバ2
+@,MX,aspmx2.googlemail.com.,GWS用 追加MXサーバ1
+@,MX,aspmx3.googlemail.com.,GWS用 追加MXサーバ2
+@,MX,aspmx4.googlemail.com.,GWS用 追加MXサーバ3
+@,MX,aspmx5.googlemail.com.,GWS用 追加MXサーバ4
+@,MX,fixlag-org.mail.protection.outlook.com.,Microsoft 365用 MXサーバ
+@,TXT,v=spf1 include:_spf.google.com include:spf.protection.outlook.com -all,GWS優先、MS365共存のSPF設定
+selector1._domainkey,CNAME,selector1-fixlag-org._domainkey.fixlag.org.,MS365 DKIM selector1
+selector2._domainkey,CNAME,selector2-fixlag-org._domainkey.fixlag.org.,MS365 DKIM selector2
+gwsfixlagorg._domainkey,TXT,v=DKIM1; k=rsa; p=MII...,GWS DKIM 公開鍵
+_dmarc,TXT,v=DMARC1; p=none,DMARC ポリシー（モニタリング）

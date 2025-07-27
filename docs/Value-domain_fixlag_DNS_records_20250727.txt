@@ -1,0 +1,30 @@
+; FIXLAG.ORG DNS Records - Updated on 20250727
+; A / CNAME Records
+@                       A       185.199.108.153
+@                       A       185.199.109.153
+@                       A       185.199.110.153
+@                       A       185.199.111.153
+www                     CNAME   fixlag-org.github.io.
+
+; MX Records (Google Workspace)
+@                       MX      aspmx.l.google.com.           10
+@                       MX      alt1.aspmx.l.google.com.      20
+@                       MX      alt2.aspmx.l.google.com.      20
+@                       MX      aspmx2.googlemail.com.        30
+@                       MX      aspmx3.googlemail.com.        30
+@                       MX      aspmx4.googlemail.com.        30
+@                       MX      aspmx5.googlemail.com.        30
+
+; MX Record (Microsoft 365)
+@                       MX      fixlag-org.mail.protection.outlook.com. 0
+
+; SPF Record
+@                       TXT     "v=spf1 include:_spf.google.com include:spf.protection.outlook.com -all"
+
+; DKIM Records
+selector1._domainkey    CNAME   selector1-fixlag-org._domainkey.fixlag.org.
+selector2._domainkey    CNAME   selector2-fixlag-org._domainkey.fixlag.org.
+gwsfixlagorg._domainkey TXT     "v=DKIM1; k=rsa; p=MII..."
+
+; DMARC Record
+_dmarc                  TXT     "v=DMARC1; p=none"
